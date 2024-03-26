@@ -19,7 +19,7 @@ Parvus is lating for small, This small PHP MVC framewrok allow for quick mockup 
   </b>
   <p>
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?logo=github)](CODE_OF_CONDUCT.md) [![Website](https://img.shields.io/website?url=https://studio6six.com&logo=html)](https://studio6six.com) [![PHP 8.2.0](https://img.shields.io/badge/php-8.2.0-brightgreen?logo=php)](https://github.com/hoppscotch/hoppscotch/actions) 
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?logo=github)](CODE_OF_CONDUCT.md) [![Website](https://img.shields.io/website?url=https://studio6six.com&logo=html)](https://studio6six.com) [![PHP 8.0.0](https://img.shields.io/badge/php-8.2.0-brightgreen?logo=php)](https://github.com/hoppscotch/hoppscotch/actions) 
 </div>
 
 _We highly recommend you take a look at the [**Studio6Six Documentation**](https://docs.studio6six.com) for more infromation._
