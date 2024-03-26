@@ -1,14 +1,18 @@
 <?php
 
+
 class Model
 {
     /**
      * @param object $db A PDO database connection
      */
+
+    private $db;
+    
     function __construct($db)
     {
         try {
-            //$this->db = $db;
+            $this->db = $db;
         } catch (PDOException $e) {
             exit('Database connection could not be established.');
         }
