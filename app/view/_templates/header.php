@@ -13,37 +13,36 @@
 
     <!-- CSS -->
     <link href="<?php echo URL; ?>css/bootstrap.min.css" rel="stylesheet">
-    <!-- <link href="<?php echo URL; ?>css/style.css" rel="stylesheet"> -->
 </head>
 
 <body>
-<nav class="navbar bg-primary navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-
-  <div class="container">
-  <a class="navbar-brand" href="<?php echo URL; ?>">
-      Parvus
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="<?php echo URL; ?>">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="<?php echo URL; ?>home/exampleone">Example One</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="<?php echo URL; ?>home/exampletwo">Example Two</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="<?php echo URL; ?>songs">Songs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <nav class="navbar bg-primary navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="<?php echo URL; ?>">
+                Parvus
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="<?php echo URL; ?>">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo URL; ?>home/exampleone">Example One</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo URL; ?>home/exampletwo">Example Two</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo URL; ?>songs">Songs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
