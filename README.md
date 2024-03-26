@@ -24,8 +24,12 @@ Parvus is latin for small, This small PHP framework is extra usefull when trying
 
 _We highly recommend you take a look at the [**Studio6Six Documentation**](https://docs.studio6six.com) for more infromation._
 
-### **Features**
+## Features
 
-**Lightweight:** Minimalistic.
+- Lightweight
+- No need for composer or installer
+- PHP CRUD included(Create, Read, Update, and Delete.)
+- Native PHP code
+- demo AJAX call
 
-**Fast:** Quick and dirty examples written in php.
+
