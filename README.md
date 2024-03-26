@@ -32,4 +32,37 @@ _We highly recommend you take a look at the [**Studio6Six Documentation**](https
 - Native PHP code
 - demo AJAX call
 
+## Requirements
+
+- PHP 8.0.0 
+- MySQL 8.0.31
+- Apache rewrite_module
+
+## Installation (in Vagrant, 100% automatic)
+
+- Edit the DB Creds in app/config/config.php
+- Import the setup.sql in the /setup folder.
+
+## Goodies
+
+MINI comes with a little customized [PDO debugger tool](https://github.com/panique/pdo-debug) (find the code in
+application/libs/helper.php), trying to emulate your PDO-SQL statements. It's extremely easy to use:
+
+```php
+$sql = "SELECT id, artist, track, link FROM song WHERE id = :song_id LIMIT 1";
+$query = $this->db->prepare($sql);
+$parameters = array(':song_id' => $song_id);
+
+echo Helper::debugPDO($sql, $parameters);
+
+$query->execute($parameters);
+```
+## License
+
+This project is licensed under the MIT License.
+This means you can use and modify it for free in private or commercial projects.
+
+## My blog
+
+And by the way, I'm also blogging at [Dev Metal](http://www.dev-metal.com).
 
