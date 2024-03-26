@@ -38,12 +38,14 @@ _We highly recommend you take a look at the [**Studio6Six Documentation**](https
 - MySQL 8.0.31
 - Apache rewrite_module
 
-## Installation (in Vagrant, 100% automatic)
+## Installation
 
 - Edit the DB Creds in app/config/config.php
 - Import the setup.sql in the /setup folder.
 
 ## Goodies
+
+The original framework that got me going can be found 
 
 MINI comes with a little customized [PDO debugger tool](https://github.com/panique/pdo-debug) (find the code in
 application/libs/helper.php), trying to emulate your PDO-SQL statements. It's extremely easy to use:
@@ -62,7 +64,10 @@ $query->execute($parameters);
 This project is licensed under the MIT License.
 This means you can use and modify it for free in private or commercial projects.
 
-## My blog
+## Credit
+Need to give credit to Panique. https://github.com/panique/mini
 
-And by the way, I'm also blogging at [Dev Metal](http://www.dev-metal.com).
+One of the first github projects i ever used, and use it did. I built many mock apps using the original. 
+
+The reason this codes looks and feel like the orignal MINI code, is because its roots are built off giants(panique) 
 
