@@ -7,6 +7,10 @@ class Controller
      */
     public $db = null;
 
+    public $view;
+
+
+
     /**
      * @var null Model
      */
@@ -19,6 +23,7 @@ class Controller
     {
         $this->openDatabaseConnection();
         $this->loadModel();
+        $this->view = new view();
     }
 
     /**

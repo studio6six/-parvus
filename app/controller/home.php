@@ -7,47 +7,29 @@ class Home extends Controller
 
     public function index($request = null)
     {
-        $data['title'] = 'Welcome';
+        $data['title'] = 'Index';
         // load views
 		$this->view->rendertemplate('header',$data);
-		//$this->view->render('home/index',$data);
-		//$this->view->rendertemplate('footer',$data);
+		$this->view->render('home/index',$data);
+		$this->view->rendertemplate('footer',$data);
     }
 
-    /*public function index($request = null)
+
+    public function exampleOne($request = null)
     {
-        $data['title'] = 'Welcome';
-        // load views
-        require APP . 'view/_templates/header.php';
-        require APP . 'view/home/index.php';
-        require APP . 'view/_templates/footer.php';
-    }*/
+        $data['title'] = 'exampleOne';
 
-
-
-    /**
-     * PAGE: exampleone
-     * This method handles what happens when you move to http://yourproject/home/exampleone
-     * The camelCase writing is just for better readability. The method name is case-insensitive.
-     */
-    public function exampleOne()
-    {
-        // load views
-        require APP . 'view/_templates/header.php';
-        require APP . 'view/home/example_one.php';
-        require APP . 'view/_templates/footer.php';
+        $this->view->rendertemplate('header',$data);
+		$this->view->render('home/example_one',$data);
+		$this->view->rendertemplate('footer',$data);
     }
 
-    /**
-     * PAGE: exampletwo
-     * This method handles what happens when you move to http://yourproject/home/exampletwo
-     * The camelCase writing is just for better readability. The method name is case-insensitive.
-     */
-    public function exampleTwo()
+    public function exampleTwo($request = null)
     {
-        // load views
-        require APP . 'view/_templates/header.php';
-        require APP . 'view/home/example_two.php';
-        require APP . 'view/_templates/footer.php';
+        $data['title'] = 'exampleTwo';
+
+        $this->view->rendertemplate('header',$data);
+		$this->view->render('home/example_two',$data);
+		$this->view->rendertemplate('footer',$data);
     }
 }
