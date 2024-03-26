@@ -1,5 +1,5 @@
 # -parvus
-Parvus is lating for small, This small PHP MVC framewrok allow for quick mockup of applications
+Parvus is latin for small, This small PHP framework is extra usefull when trying to quickly mock up a crud application.
 
 <div align="center">
   <a href="https://Studio6six.com">
