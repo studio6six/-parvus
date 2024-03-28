@@ -1,7 +1,9 @@
 <?php
+/*************************************************************
+ * Parvus PHP Framework
+ **************************************************************/
 
-
-
+ 
 // set a constant that holds the project's folder path, like "/var/www/".
 // DIRECTORY_SEPARATOR adds a slash to the end of the path
 define('ROOT', dirname(__DIR__) . DIRECTORY_SEPARATOR);
