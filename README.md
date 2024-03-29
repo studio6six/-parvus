@@ -1,4 +1,4 @@
-# Parvus
+# Parvus  Boomer
 Parvus is latin for small, This small PHP framework is extra usefull when trying to quickly mock up a crud application.
 
 <div align="center">
